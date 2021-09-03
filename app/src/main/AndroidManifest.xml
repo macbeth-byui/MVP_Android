@@ -14,7 +14,8 @@
         <activity android:name=".MVP1.MainActivity3" />
         <activity android:name=".MVP1.MainActivity2" />
         <activity android:name=".MVP3.MainActivity" />
-        <activity android:name=".MVP1.MainActivity">
+        <activity android:name=".MVP1.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
